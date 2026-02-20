@@ -13,4 +13,6 @@ export default defineConfig({
   build: {
     outDir: "dist", // revert to default
   },
+
+  base: process.env.VITE_BASE_PATH || "/POS--Point-Of-Sale-"
 });
